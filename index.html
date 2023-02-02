@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Tiny Platformer</title>
-    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="style.css">
     <script>
-      let simpleLevel = new Level(simpleLevelPlan);
-      let display = new DOMDisplay(document.body, simpleLevel);
+      var simpleLevel = new Level(simpleLevelPlan);
+      var display = new DOMDisplay(document.body, simpleLevel);
       display.syncState(State.start(simpleLevel));
     </script>
     <meta name="Deep Blue" content="A tiny Platformer">
